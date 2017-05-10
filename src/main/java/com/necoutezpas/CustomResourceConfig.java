@@ -5,9 +5,6 @@ import org.glassfish.jersey.server.ResourceConfig;
 
 import javax.inject.Singleton;
 
-/**
- * Created by pascal on 10/05/2017.
- */
 public class CustomResourceConfig  extends ResourceConfig {
     public CustomResourceConfig() {
         register(new AbstractBinder() {
